@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #EBEEFF;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+header{
+    background-color: #067B6C;
+    height: 30vh;
+    display: block;
+    margin: 0 auto;
+}
+header img{
+    height: 150px;
+    width: 150px;
+    left: 150px;
+    position: relative;
+    margin-top: 40px;
+}
+header h1{
+    color: #00AF98;
+    font-size: 40px;
+    font-family: 'Geologica', sans-serif;
+}
+header i{
+    color: #EBEEFF;
+}
+header #titulo{
+    float: right;
+    width: 800px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    transform: translate(-3%, 185%);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px; 
+    background-color: #00AF98;
+    box-shadow: 0px 2px 14px 0px grey;
+    z-index: 999;
+}
+nav ul li {
+    float: left;
+    list-style:none;
+}
+nav ul li a{
+    color: #EBEEFF;
+    padding: 0px 55px;
+    text-decoration: none; 
+    font-size: 17px;
+}
+nav ul li a:hover{
+    background-color: #067B6C;
+    padding: 14px 55px;
+    color: white;
+}
+
+#pacote{
+    padding: 50px 40px;    
+    background-image: url(https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2021/02/Baia-do-Sancho.jpg?w=876&h=484&crop=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: -30vh;
+}
+
+.pac{
+    display: inline-block;
+    width: 270px;
+    height: 100px;
+    background-color: #067B6C;
+    border-radius: 10px;
+    color: #EBEEFF;
+    box-shadow: 1px 1px 5px 0.2px grey;
+}
+.pac p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+}
+.pac h3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+    font-size: 19px;
+}
+#previa, #album, #pacote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+#pacote h2{
+    color: #EBEEFF;
+    padding: 10px;
+}
+#previa h2, #album h2{
+    color:#067B6C;
+    padding: 10px;
+}
+.quadrado{
+    display: inline-block;
+    width: 220px;
+    height: 250px;
+    padding: 0px 25px;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px 0.2px grey;
+}
+.quadrado a{
+    text-decoration: none;
+}
+#economia{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Mergulho_em_Fernando_de_Noronha%2C_Pernambuco%2C_Brasil.jpg/800px-Mergulho_em_Fernando_de_Noronha%2C_Pernambuco%2C_Brasil.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#economia:hover{
+    background-image: none;
+    background-color: #067B6C;
+}
+#cultura{
+    background-image: url(https://www.essemundoenosso.com.br/wp-content/uploads/2020/01/onde-fica-fernando-de-noronha-forte-nossa-senhora-dos-remedios.jpg.webp?fit=740%2C493&ssl=1);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+#cultura:hover{
+    background-image: none;
+    background-color: #067B6C;
+}
+#geografia{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fernando_de_Noronha_-_PE_-_Baia_dos_Golfinhos.jpg/1024px-Fernando_de_Noronha_-_PE_-_Baia_dos_Golfinhos.jpg);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+#geografia:hover{
+    background-image: none;
+    background-color: #067B6C;
+}
+#historia{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Mapa_do_Arquip%C3%A9lago_de_Fernando_de_Noronha.tif/lossy-page1-800px-Mapa_do_Arquip%C3%A9lago_de_Fernando_de_Noronha.tif.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+#historia:hover{
+    background-image: none;
+    background-color: #067B6C;
+}
+#previa p{
+    color: #EBEEFF;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 110px;
+    padding: 7px 0px;
+}
+#previa p spam{
+    border: 1px solid #EBEEFF;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+#previa p spam:hover{
+    background-color: #EBEEFF;
+    color: #067B6C;
+}
+.foto{
+    display: inline-block;
+    width: 22%;
+    padding: 5px 10px;
+}
+.foto img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0.2px grey;
+}
+.foto img:hover{
+    opacity: 0.8;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: #067B6C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EBEEFF;
+}
+footer .icons{
+    padding: 30px 15px;
+}
+footer .lado{
+    display: inline-block;
+    position: relative;
+    left: 60%;
+}
+footer p{
+    position: relative;
+    margin-right: 30px;
+    bottom: 40px;
+    font-weight:bolder;
+    font-style: italic;
+}
+footer #logo{
+    position: relative;
+    left: -500px;
+    padding: 20px 0px;
+}
